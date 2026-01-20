@@ -5,5 +5,5 @@ export default function handler(_, res) {
 
   res
     .status(200)
-    .json({ deploymentIdentifier: "contentfly-logs-background-jobs-service-dev-deploy:6e514bc-b78b5c7:run-counter-1" })
+    .json({ deploymentIdentifier: "This is test identifier message" })
 }
